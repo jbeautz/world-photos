@@ -678,23 +678,42 @@
   }
 
   // ── Map move → auto show/hide panel ────────────
+  var moveEndTimer = null;
+
   function onMapMoveEnd() {
     if (panelManualClose) return; // user closed, don't reopen until zoom changes
     if (panelResizing) return;   // ignore events from our own invalidateSize
 
+    var isMobile = window.innerWidth <= 768;
+
+    // Debounce on mobile to avoid rapid-fire updates during touch gestures
+    if (isMobile) {
+      if (moveEndTimer) clearTimeout(moveEndTimer);
+      moveEndTimer = setTimeout(function () {
+        moveEndTimer = null;
+        doPanelUpdate(true);
+      }, 250);
+    } else {
+      doPanelUpdate(false);
+    }
+  }
+
+  function doPanelUpdate(isMobile) {
     var zoom = map.getZoom();
     var visible = getVisiblePhotos();
 
     if (zoom >= PANEL_ZOOM_THRESHOLD && visible.length > 0) {
-      // On mobile, only update content if panel is already open to avoid flashing
       if (panelOpen) {
+        // Update content in-place without closing/reopening
         panelPhotos = visible;
         panelIndex = Math.min(panelIndex, visible.length - 1);
         updatePanelContent();
         buildThumbnails();
-      } else {
+      } else if (!isMobile) {
+        // On desktop, auto-open panel
         showPanel(visible);
       }
+      // On mobile, don't auto-open — user must tap a marker/cluster
     } else if (panelOpen) {
       hidePanel();
     }
@@ -761,12 +780,35 @@
     document.getElementById('lightbox-next').addEventListener('click', lightboxNext);
   }
 
-  // ── Also open lightbox from marker popups ──────
+  // ── Also open lightbox/panel from marker popups ──────
   function initPopupFullscreen() {
     map.on('popupopen', function (e) {
       var popup = e.popup;
       var content = popup.getElement();
       if (!content) return;
+
+      // On mobile, tapping a marker popup should also open the photo panel
+      var isMobile = window.innerWidth <= 768;
+      if (isMobile && !panelOpen) {
+        var visible = getVisiblePhotos();
+        if (visible.length > 0) {
+          showPanel(visible);
+
+          // Try to set the panel to the tapped photo
+          var marker = popup._source;
+          if (marker) {
+            var ts = marker._photoTimestamp;
+            var ll = marker.getLatLng();
+            for (var k = 0; k < panelPhotos.length; k++) {
+              if (panelPhotos[k].timestamp === ts && panelPhotos[k].lat === ll.lat) {
+                panelIndex = k;
+                updatePanelContent();
+                break;
+              }
+            }
+          }
+        }
+      }
 
       var img = content.querySelector('.photo-popup img');
       if (!img) return;

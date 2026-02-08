@@ -966,9 +966,10 @@ body::after {
     border-top: 1px solid var(--border-glow);
     box-shadow: 0 -4px 24px rgba(0, 240, 255, .1);
     z-index: 500;
-    transition: transform .3s ease, opacity .25s ease;
+    transition: transform .3s ease, opacity .25s ease, visibility 0s linear 0s;
     transform: translateY(0);
     flex-direction: row; /* hero on left, thumbs on right */
+    visibility: visible;
   }
 
   #photo-panel.panel-hidden {
@@ -976,6 +977,8 @@ body::after {
     transform: translateY(100%);
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
+    transition: transform .3s ease, opacity .25s ease, visibility 0s linear .3s;
   }
 
   #panel-header {
