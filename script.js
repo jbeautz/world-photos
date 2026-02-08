@@ -709,11 +709,10 @@
         panelIndex = Math.min(panelIndex, visible.length - 1);
         updatePanelContent();
         buildThumbnails();
-      } else if (!isMobile) {
-        // On desktop, auto-open panel
+      } else {
+        // Auto-open panel on both desktop and mobile
         showPanel(visible);
       }
-      // On mobile, don't auto-open — user must tap a marker/cluster
     } else if (panelOpen) {
       hidePanel();
     }
