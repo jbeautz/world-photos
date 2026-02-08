@@ -1640,11 +1640,827 @@
     "approximate": false
   },
   {
-    "filename": "IMG_0308(1).HEIC",
-    "path": "images/converted/IMG_0308(1).jpg",
-    "timestamp": 1768664407000,
-    "lat": 28.555114,
-    "lng": 77.082939,
+    "filename": "IMG_0420.HEIC",
+    "path": "images/converted/IMG_0420.jpg",
+    "timestamp": 1769596450000,
+    "lat": 18.804989,
+    "lng": 98.921347,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0421.HEIC",
+    "path": "images/converted/IMG_0421.jpg",
+    "timestamp": 1769596455000,
+    "lat": 18.805011,
+    "lng": 98.921317,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0422.HEIC",
+    "path": "images/converted/IMG_0422.jpg",
+    "timestamp": 1769596456000,
+    "lat": 18.805011,
+    "lng": 98.921317,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0423.HEIC",
+    "path": "images/converted/IMG_0423.jpg",
+    "timestamp": 1769596656000,
+    "lat": 18.805014,
+    "lng": 98.921678,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0424.HEIC",
+    "path": "images/converted/IMG_0424.jpg",
+    "timestamp": 1769596658000,
+    "lat": 18.805017,
+    "lng": 98.921678,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0425.HEIC",
+    "path": "images/converted/IMG_0425.jpg",
+    "timestamp": 1769596659000,
+    "lat": 18.805017,
+    "lng": 98.921678,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0426.HEIC",
+    "path": "images/converted/IMG_0426.jpg",
+    "timestamp": 1769596676000,
+    "lat": 18.805053,
+    "lng": 98.921683,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0427.HEIC",
+    "path": "images/converted/IMG_0427.jpg",
+    "timestamp": 1769596680000,
+    "lat": 18.80505,
+    "lng": 98.921683,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0428.HEIC",
+    "path": "images/converted/IMG_0428.jpg",
+    "timestamp": 1769596768000,
+    "lat": 18.804953,
+    "lng": 98.921761,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0429.HEIC",
+    "path": "images/converted/IMG_0429.jpg",
+    "timestamp": 1769596770000,
+    "lat": 18.804925,
+    "lng": 98.921783,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0430.HEIC",
+    "path": "images/converted/IMG_0430.jpg",
+    "timestamp": 1769596794000,
+    "lat": 18.804931,
+    "lng": 98.921739,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0431.HEIC",
+    "path": "images/converted/IMG_0431.jpg",
+    "timestamp": 1769596794000,
+    "lat": 18.804931,
+    "lng": 98.921739,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0432.HEIC",
+    "path": "images/converted/IMG_0432.jpg",
+    "timestamp": 1769596799000,
+    "lat": 18.804931,
+    "lng": 98.921739,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0433.HEIC",
+    "path": "images/converted/IMG_0433.jpg",
+    "timestamp": 1769596800000,
+    "lat": 18.804931,
+    "lng": 98.921739,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0434.HEIC",
+    "path": "images/converted/IMG_0434.jpg",
+    "timestamp": 1769662379000,
+    "lat": 18.793172,
+    "lng": 98.994919,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0435.HEIC",
+    "path": "images/converted/IMG_0435.jpg",
+    "timestamp": 1769662381000,
+    "lat": 18.793194,
+    "lng": 98.994933,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0436.HEIC",
+    "path": "images/converted/IMG_0436.jpg",
+    "timestamp": 1769668393000,
+    "lat": 18.79615,
+    "lng": 98.982764,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0437.HEIC",
+    "path": "images/converted/IMG_0437.jpg",
+    "timestamp": 1769668395000,
+    "lat": 18.796153,
+    "lng": 98.982772,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0438.HEIC",
+    "path": "images/converted/IMG_0438.jpg",
+    "timestamp": 1769668597000,
+    "lat": 18.795775,
+    "lng": 98.982528,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0439.HEIC",
+    "path": "images/converted/IMG_0439.jpg",
+    "timestamp": 1769668598000,
+    "lat": 18.795783,
+    "lng": 98.982528,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0440.HEIC",
+    "path": "images/converted/IMG_0440.jpg",
+    "timestamp": 1769669143000,
+    "lat": 18.795442,
+    "lng": 98.982894,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0441.HEIC",
+    "path": "images/converted/IMG_0441.jpg",
+    "timestamp": 1769669144000,
+    "lat": 18.795444,
+    "lng": 98.982886,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0442.HEIC",
+    "path": "images/converted/IMG_0442.jpg",
+    "timestamp": 1769669148000,
+    "lat": 18.795433,
+    "lng": 98.982911,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0444.HEIC",
+    "path": "images/converted/IMG_0444.jpg",
+    "timestamp": 1769681842000,
+    "lat": 18.769325,
+    "lng": 99.024392,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0445.HEIC",
+    "path": "images/converted/IMG_0445.jpg",
+    "timestamp": 1769681843000,
+    "lat": 18.769353,
+    "lng": 99.024369,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0446.HEIC",
+    "path": "images/converted/IMG_0446.jpg",
+    "timestamp": 1769682431000,
+    "lat": 18.76935,
+    "lng": 99.023819,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0447.HEIC",
+    "path": "images/converted/IMG_0447.jpg",
+    "timestamp": 1769682433000,
+    "lat": 18.769344,
+    "lng": 99.023833,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0448.HEIC",
+    "path": "images/converted/IMG_0448.jpg",
+    "timestamp": 1769682434000,
+    "lat": 18.769342,
+    "lng": 99.02385,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0449.HEIC",
+    "path": "images/converted/IMG_0449.jpg",
+    "timestamp": 1769682449000,
+    "lat": 18.769378,
+    "lng": 99.023889,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0450.HEIC",
+    "path": "images/converted/IMG_0450.jpg",
+    "timestamp": 1769682450000,
+    "lat": 18.769378,
+    "lng": 99.023894,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0451.HEIC",
+    "path": "images/converted/IMG_0451.jpg",
+    "timestamp": 1769682459000,
+    "lat": 18.769383,
+    "lng": 99.023894,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0452.HEIC",
+    "path": "images/converted/IMG_0452.jpg",
+    "timestamp": 1769682461000,
+    "lat": 18.769394,
+    "lng": 99.023919,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0453.HEIC",
+    "path": "images/converted/IMG_0453.jpg",
+    "timestamp": 1769682462000,
+    "lat": 18.769392,
+    "lng": 99.023925,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0454.HEIC",
+    "path": "images/converted/IMG_0454.jpg",
+    "timestamp": 1769682467000,
+    "lat": 18.769392,
+    "lng": 99.023919,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0455.HEIC",
+    "path": "images/converted/IMG_0455.jpg",
+    "timestamp": 1769683745000,
+    "lat": 18.769328,
+    "lng": 99.023919,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0456.HEIC",
+    "path": "images/converted/IMG_0456.jpg",
+    "timestamp": 1769683748000,
+    "lat": 18.769358,
+    "lng": 99.02385,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0457.HEIC",
+    "path": "images/converted/IMG_0457.jpg",
+    "timestamp": 1769683751000,
+    "lat": 18.769336,
+    "lng": 99.023803,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0459.HEIC",
+    "path": "images/converted/IMG_0459.jpg",
+    "timestamp": 1769689210000,
+    "lat": 18.769294,
+    "lng": 99.023828,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0460.HEIC",
+    "path": "images/converted/IMG_0460.jpg",
+    "timestamp": 1769689211000,
+    "lat": 18.769322,
+    "lng": 99.023828,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0461.HEIC",
+    "path": "images/converted/IMG_0461.jpg",
+    "timestamp": 1769689212000,
+    "lat": 18.769331,
+    "lng": 99.023833,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0463.HEIC",
+    "path": "images/converted/IMG_0463.jpg",
+    "timestamp": 1769742256000,
+    "lat": 18.793119,
+    "lng": 98.994111,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0464.HEIC",
+    "path": "images/converted/IMG_0464.jpg",
+    "timestamp": 1769742265000,
+    "lat": 18.793056,
+    "lng": 98.993897,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0465.HEIC",
+    "path": "images/converted/IMG_0465.jpg",
+    "timestamp": 1769838928000,
+    "lat": 19.362275,
+    "lng": 98.448989,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0466.HEIC",
+    "path": "images/converted/IMG_0466.jpg",
+    "timestamp": 1769838929000,
+    "lat": 19.36225,
+    "lng": 98.448967,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0467.HEIC",
+    "path": "images/converted/IMG_0467.jpg",
+    "timestamp": 1769838931000,
+    "lat": 19.362236,
+    "lng": 98.448922,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0468.HEIC",
+    "path": "images/converted/IMG_0468.jpg",
+    "timestamp": 1769838933000,
+    "lat": 19.362225,
+    "lng": 98.448892,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0469.HEIC",
+    "path": "images/converted/IMG_0469.jpg",
+    "timestamp": 1769839777000,
+    "lat": 19.360578,
+    "lng": 98.443878,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0473.HEIC",
+    "path": "images/converted/IMG_0473.jpg",
+    "timestamp": 1769852804000,
+    "lat": 19.359394,
+    "lng": 98.445367,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0474.HEIC",
+    "path": "images/converted/IMG_0474.jpg",
+    "timestamp": 1769852820000,
+    "lat": 19.3594,
+    "lng": 98.445403,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0475.HEIC",
+    "path": "images/converted/IMG_0475.jpg",
+    "timestamp": 1769852821000,
+    "lat": 19.3594,
+    "lng": 98.445403,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0476.HEIC",
+    "path": "images/converted/IMG_0476.jpg",
+    "timestamp": 1769852822000,
+    "lat": 19.3594,
+    "lng": 98.445403,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0477.HEIC",
+    "path": "images/converted/IMG_0477.jpg",
+    "timestamp": 1769852823000,
+    "lat": 19.3594,
+    "lng": 98.445403,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0478.HEIC",
+    "path": "images/converted/IMG_0478.jpg",
+    "timestamp": 1769852826000,
+    "lat": 19.3594,
+    "lng": 98.445403,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0479.HEIC",
+    "path": "images/converted/IMG_0479.jpg",
+    "timestamp": 1769852827000,
+    "lat": 19.359397,
+    "lng": 98.445411,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0481.HEIC",
+    "path": "images/converted/IMG_0481.jpg",
+    "timestamp": 1769937632000,
+    "lat": 19.322147,
+    "lng": 98.455444,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0482.HEIC",
+    "path": "images/converted/IMG_0482.jpg",
+    "timestamp": 1769937634000,
+    "lat": 19.322147,
+    "lng": 98.455444,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0483.HEIC",
+    "path": "images/converted/IMG_0483.jpg",
+    "timestamp": 1769937641000,
+    "lat": 19.322144,
+    "lng": 98.455436,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0484.HEIC",
+    "path": "images/converted/IMG_0484.jpg",
+    "timestamp": 1769937998000,
+    "lat": 19.322006,
+    "lng": 98.455278,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0485.HEIC",
+    "path": "images/converted/IMG_0485.jpg",
+    "timestamp": 1769940079000,
+    "lat": 19.322339,
+    "lng": 98.455217,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0486.HEIC",
+    "path": "images/converted/IMG_0486.jpg",
+    "timestamp": 1769940080000,
+    "lat": 19.322344,
+    "lng": 98.455222,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0487.HEIC",
+    "path": "images/converted/IMG_0487.jpg",
+    "timestamp": 1769940082000,
+    "lat": 19.32235,
+    "lng": 98.455231,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0488.HEIC",
+    "path": "images/converted/IMG_0488.jpg",
+    "timestamp": 1769940082000,
+    "lat": 19.32235,
+    "lng": 98.455231,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0489.HEIC",
+    "path": "images/converted/IMG_0489.jpg",
+    "timestamp": 1769940089000,
+    "lat": 19.322353,
+    "lng": 98.455231,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0490.HEIC",
+    "path": "images/converted/IMG_0490.jpg",
+    "timestamp": 1769941364000,
+    "lat": 19.362081,
+    "lng": 98.449014,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0491.HEIC",
+    "path": "images/converted/IMG_0491.jpg",
+    "timestamp": 1769941376000,
+    "lat": 19.362081,
+    "lng": 98.449019,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0492.HEIC",
+    "path": "images/converted/IMG_0492.jpg",
+    "timestamp": 1769941379000,
+    "lat": 19.362081,
+    "lng": 98.449028,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0493.HEIC",
+    "path": "images/converted/IMG_0493.jpg",
+    "timestamp": 1769941380000,
+    "lat": 19.362081,
+    "lng": 98.449028,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0494.HEIC",
+    "path": "images/converted/IMG_0494.jpg",
+    "timestamp": 1769941382000,
+    "lat": 19.362081,
+    "lng": 98.449028,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0495.HEIC",
+    "path": "images/converted/IMG_0495.jpg",
+    "timestamp": 1769941382000,
+    "lat": 19.362081,
+    "lng": 98.449028,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0496.HEIC",
+    "path": "images/converted/IMG_0496.jpg",
+    "timestamp": 1769943690000,
+    "lat": 19.362083,
+    "lng": 98.447914,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0497.HEIC",
+    "path": "images/converted/IMG_0497.jpg",
+    "timestamp": 1769943690000,
+    "lat": 19.36205,
+    "lng": 98.4479,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0498.HEIC",
+    "path": "images/converted/IMG_0498.jpg",
+    "timestamp": 1769943693000,
+    "lat": 19.362039,
+    "lng": 98.447892,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0499.HEIC",
+    "path": "images/converted/IMG_0499.jpg",
+    "timestamp": 1769943900000,
+    "lat": 19.362072,
+    "lng": 98.447869,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0500.HEIC",
+    "path": "images/converted/IMG_0500.jpg",
+    "timestamp": 1769943903000,
+    "lat": 19.362075,
+    "lng": 98.447869,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0501.HEIC",
+    "path": "images/converted/IMG_0501.jpg",
+    "timestamp": 1769943904000,
+    "lat": 19.362075,
+    "lng": 98.447875,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0502.HEIC",
+    "path": "images/converted/IMG_0502.jpg",
+    "timestamp": 1769943914000,
+    "lat": 19.362072,
+    "lng": 98.447869,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0503.HEIC",
+    "path": "images/converted/IMG_0503.jpg",
+    "timestamp": 1769943916000,
+    "lat": 19.362081,
+    "lng": 98.447875,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0504.HEIC",
+    "path": "images/converted/IMG_0504.jpg",
+    "timestamp": 1769943923000,
+    "lat": 19.362075,
+    "lng": 98.447875,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0507.HEIC",
+    "path": "images/converted/IMG_0507.jpg",
+    "timestamp": 1770002466000,
+    "lat": 19.362425,
+    "lng": 98.448989,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0508.HEIC",
+    "path": "images/converted/IMG_0508.jpg",
+    "timestamp": 1770029721000,
+    "lat": 19.362225,
+    "lng": 98.447983,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0509.HEIC",
+    "path": "images/converted/IMG_0509.jpg",
+    "timestamp": 1770029730000,
+    "lat": 19.362417,
+    "lng": 98.448089,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0510.HEIC",
+    "path": "images/converted/IMG_0510.jpg",
+    "timestamp": 1770091137000,
+    "lat": 19.362378,
+    "lng": 98.448967,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0511.HEIC",
+    "path": "images/converted/IMG_0511.jpg",
+    "timestamp": 1770091141000,
+    "lat": 19.362369,
+    "lng": 98.448989,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0512.HEIC",
+    "path": "images/converted/IMG_0512.jpg",
+    "timestamp": 1770091148000,
+    "lat": 19.362369,
+    "lng": 98.448997,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0513.HEIC",
+    "path": "images/converted/IMG_0513.jpg",
+    "timestamp": 1770113313000,
+    "lat": 19.360586,
+    "lng": 98.443947,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0514.HEIC",
+    "path": "images/converted/IMG_0514.jpg",
+    "timestamp": 1770113314000,
+    "lat": 19.360586,
+    "lng": 98.443947,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0515.HEIC",
+    "path": "images/converted/IMG_0515.jpg",
+    "timestamp": 1770113320000,
+    "lat": 19.360456,
+    "lng": 98.443956,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0516.HEIC",
+    "path": "images/converted/IMG_0516.jpg",
+    "timestamp": 1770113322000,
+    "lat": 19.360444,
+    "lng": 98.443956,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0517.HEIC",
+    "path": "images/converted/IMG_0517.jpg",
+    "timestamp": 1770113323000,
+    "lat": 19.360439,
+    "lng": 98.443956,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0518.HEIC",
+    "path": "images/converted/IMG_0518.jpg",
+    "timestamp": 1770113328000,
+    "lat": 19.360428,
+    "lng": 98.443947,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0519.HEIC",
+    "path": "images/converted/IMG_0519.jpg",
+    "timestamp": 1770113331000,
+    "lat": 19.360428,
+    "lng": 98.443947,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0536.HEIC",
+    "path": "images/converted/IMG_0536.jpg",
+    "timestamp": 1770208192000,
+    "lat": 18.799989,
+    "lng": 99.004556,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0537.HEIC",
+    "path": "images/converted/IMG_0537.jpg",
+    "timestamp": 1770215962000,
+    "lat": 18.795453,
+    "lng": 98.991975,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0539.HEIC",
+    "path": "images/converted/IMG_0539.jpg",
+    "timestamp": 1770215972000,
+    "lat": 18.795442,
+    "lng": 98.991897,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0554.HEIC",
+    "path": "images/converted/IMG_0554.jpg",
+    "timestamp": 1770274644000,
+    "lat": 18.695911,
+    "lng": 98.891839,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0555.HEIC",
+    "path": "images/converted/IMG_0555.jpg",
+    "timestamp": 1770274645000,
+    "lat": 18.695911,
+    "lng": 98.891839,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0556.HEIC",
+    "path": "images/converted/IMG_0556.jpg",
+    "timestamp": 1770274647000,
+    "lat": 18.695933,
+    "lng": 98.891922,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0557.HEIC",
+    "path": "images/converted/IMG_0557.jpg",
+    "timestamp": 1770274655000,
+    "lat": 18.695944,
+    "lng": 98.891914,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0558.HEIC",
+    "path": "images/converted/IMG_0558.jpg",
+    "timestamp": 1770287314000,
+    "lat": 18.695611,
+    "lng": 98.890861,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0559.HEIC",
+    "path": "images/converted/IMG_0559.jpg",
+    "timestamp": 1770287481000,
+    "lat": 18.696,
+    "lng": 98.891914,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0560.HEIC",
+    "path": "images/converted/IMG_0560.jpg",
+    "timestamp": 1770287485000,
+    "lat": 18.695994,
+    "lng": 98.891922,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0561.HEIC",
+    "path": "images/converted/IMG_0561.jpg",
+    "timestamp": 1770287485000,
+    "lat": 18.695992,
+    "lng": 98.891922,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_0562.HEIC",
+    "path": "images/converted/IMG_0562.jpg",
+    "timestamp": 1770357557000,
+    "lat": 13.737761,
+    "lng": 100.514,
     "approximate": false
   },
   {
@@ -3120,6 +3936,214 @@
     "approximate": false
   },
   {
+    "filename": "IMG_4444.HEIC",
+    "path": "images/converted/IMG_4444.jpg",
+    "timestamp": 1769667865000,
+    "lat": 18.796492,
+    "lng": 98.982536,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4445.HEIC",
+    "path": "images/converted/IMG_4445.jpg",
+    "timestamp": 1769667867000,
+    "lat": 18.79645,
+    "lng": 98.982597,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4446.HEIC",
+    "path": "images/converted/IMG_4446.jpg",
+    "timestamp": 1769667868000,
+    "lat": 18.7964,
+    "lng": 98.982614,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4447.HEIC",
+    "path": "images/converted/IMG_4447.jpg",
+    "timestamp": 1769667869000,
+    "lat": 18.796394,
+    "lng": 98.982583,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4448.HEIC",
+    "path": "images/converted/IMG_4448.jpg",
+    "timestamp": 1769668458000,
+    "lat": 18.795933,
+    "lng": 98.982803,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4449.HEIC",
+    "path": "images/converted/IMG_4449.jpg",
+    "timestamp": 1769668458000,
+    "lat": 18.795936,
+    "lng": 98.982794,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4450.HEIC",
+    "path": "images/converted/IMG_4450.jpg",
+    "timestamp": 1769668463000,
+    "lat": 18.795989,
+    "lng": 98.982772,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4451.HEIC",
+    "path": "images/converted/IMG_4451.jpg",
+    "timestamp": 1769668673000,
+    "lat": 18.795489,
+    "lng": 98.982803,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4452.HEIC",
+    "path": "images/converted/IMG_4452.jpg",
+    "timestamp": 1769668674000,
+    "lat": 18.795489,
+    "lng": 98.982803,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4453.HEIC",
+    "path": "images/converted/IMG_4453.jpg",
+    "timestamp": 1769668878000,
+    "lat": 18.795253,
+    "lng": 98.982781,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4454.HEIC",
+    "path": "images/converted/IMG_4454.jpg",
+    "timestamp": 1769668881000,
+    "lat": 18.795256,
+    "lng": 98.982789,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4455.HEIC",
+    "path": "images/converted/IMG_4455.jpg",
+    "timestamp": 1769668888000,
+    "lat": 18.795261,
+    "lng": 98.982789,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4457.HEIC",
+    "path": "images/converted/IMG_4457.jpg",
+    "timestamp": 1769680600000,
+    "lat": 18.769325,
+    "lng": 99.023842,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4458.HEIC",
+    "path": "images/converted/IMG_4458.jpg",
+    "timestamp": 1769680601000,
+    "lat": 18.769353,
+    "lng": 99.023872,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4460.HEIC",
+    "path": "images/converted/IMG_4460.jpg",
+    "timestamp": 1769681921000,
+    "lat": 18.7692,
+    "lng": 99.024392,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4461.HEIC",
+    "path": "images/converted/IMG_4461.jpg",
+    "timestamp": 1769681925000,
+    "lat": 18.769214,
+    "lng": 99.024344,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4462.HEIC",
+    "path": "images/converted/IMG_4462.jpg",
+    "timestamp": 1769681927000,
+    "lat": 18.769178,
+    "lng": 99.024269,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4463.HEIC",
+    "path": "images/converted/IMG_4463.jpg",
+    "timestamp": 1769774323000,
+    "lat": 19.358928,
+    "lng": 98.444917,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4464.HEIC",
+    "path": "images/converted/IMG_4464.jpg",
+    "timestamp": 1769774327000,
+    "lat": 19.358947,
+    "lng": 98.444908,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4491.HEIC",
+    "path": "images/converted/IMG_4491.jpg",
+    "timestamp": 1769931864000,
+    "lat": 19.304453,
+    "lng": 98.451775,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4493.HEIC",
+    "path": "images/converted/IMG_4493.jpg",
+    "timestamp": 1769933115000,
+    "lat": 19.305081,
+    "lng": 98.448097,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4494.HEIC",
+    "path": "images/converted/IMG_4494.jpg",
+    "timestamp": 1769933855000,
+    "lat": 19.305033,
+    "lng": 98.448058,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4495.HEIC",
+    "path": "images/converted/IMG_4495.jpg",
+    "timestamp": 1769933860000,
+    "lat": 19.305128,
+    "lng": 98.448089,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4496.HEIC",
+    "path": "images/converted/IMG_4496.jpg",
+    "timestamp": 1769943630000,
+    "lat": 19.362,
+    "lng": 98.447853,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4497.HEIC",
+    "path": "images/converted/IMG_4497.jpg",
+    "timestamp": 1769943632000,
+    "lat": 19.362128,
+    "lng": 98.4478,
+    "approximate": false
+  },
+  {
+    "filename": "IMG_4628.HEIC",
+    "path": "images/converted/IMG_4628.jpg",
+    "timestamp": 1770268294000,
+    "lat": 18.794819,
+    "lng": 98.986983,
+    "approximate": false
+  },
+  {
     "filename": "1076AE15-BF42-4942-85FD-C200E662795B.JPG",
     "path": "images/1076AE15-BF42-4942-85FD-C200E662795B.JPG",
     "timestamp": 1767538447000,
@@ -3189,6 +4213,38 @@
     "timestamp": 1767601047000,
     "lat": 43.691493,
     "lng": 7.288551,
+    "approximate": true
+  },
+  {
+    "filename": "IMG_0458.HEIC",
+    "path": "images/converted/IMG_0458.jpg",
+    "timestamp": 1769686263000,
+    "lat": 18.782634,
+    "lng": 99.003981,
+    "approximate": true
+  },
+  {
+    "filename": "IMG_0472.HEIC",
+    "path": "images/converted/IMG_0472.jpg",
+    "timestamp": 1769852801000,
+    "lat": 19.360446,
+    "lng": 98.446453,
+    "approximate": true
+  },
+  {
+    "filename": "IMG_0480.HEIC",
+    "path": "images/converted/IMG_0480.jpg",
+    "timestamp": 1769933869000,
+    "lat": 19.342504,
+    "lng": 98.450483,
+    "approximate": true
+  },
+  {
+    "filename": "IMG_0505.HEIC",
+    "path": "images/converted/IMG_0505.jpg",
+    "timestamp": 1769958531000,
+    "lat": 19.342504,
+    "lng": 98.450483,
     "approximate": true
   },
   {
