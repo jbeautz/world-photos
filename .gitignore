@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Original HEIC files — only converted JPEGs are needed for the web app
+images/*.HEIC

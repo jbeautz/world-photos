@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Photos — Interactive Travel Map</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Leaflet MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <!-- noUiSlider CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.css" />
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main layout wrapper -->
+  <div id="app-layout">
+    <!-- Photo slideshow panel (hidden until zoomed in) -->
+    <div id="photo-panel" class="panel-hidden">
+      <div id="panel-header">
+        <span id="panel-title">Photos nearby</span>
+        <span id="panel-counter">0 / 0</span>
+        <button id="btn-close-panel" title="Close panel">✕</button>
+      </div>
+      <div id="panel-hero">
+        <img id="hero-img" src="" alt="Photo" />
+        <button id="hero-fullscreen" title="View fullscreen">⛶</button>
+        <button id="hero-prev" class="hero-nav" title="Previous">‹</button>
+        <button id="hero-next" class="hero-nav" title="Next">›</button>
+      </div>
+      <div id="panel-caption"></div>
+      <div id="panel-thumbs"></div>
+    </div>
+
+    <!-- Map container -->
+    <div id="map"></div>
+  </div>
+
+  <!-- Fullscreen lightbox -->
+  <div id="lightbox" class="lightbox-hidden">
+    <div id="lightbox-backdrop"></div>
+    <img id="lightbox-img" src="" alt="Full size" />
+    <button id="lightbox-close" title="Close">✕</button>
+    <button id="lightbox-prev" class="lightbox-nav" title="Previous">‹</button>
+    <button id="lightbox-next" class="lightbox-nav" title="Next">›</button>
+    <div id="lightbox-caption"></div>
+    <div id="lightbox-counter"></div>
+  </div>
+
+  <!-- Yellow Submarine (animated during timeline playback) -->
+  <svg id="submarine" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 66">
+    <!-- Hull -->
+    <ellipse cx="58" cy="38" rx="48" ry="20" fill="#ffe600" stroke="#e6c800" stroke-width="1.5"/>
+    <!-- Hull stripe -->
+    <rect x="14" y="34" width="88" height="6" rx="3" fill="#ffd000" opacity=".5"/>
+    <!-- Conning tower -->
+    <rect x="44" y="14" width="26" height="18" rx="6" fill="#ffe600" stroke="#e6c800" stroke-width="1.5"/>
+    <!-- Periscope -->
+    <line x1="57" y1="6" x2="57" y2="14" stroke="#e6c800" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="57" cy="5" r="3" fill="#00f0ff" stroke="#e6c800" stroke-width="1"/>
+    <!-- Portholes -->
+    <circle cx="34" cy="38" r="5" fill="#00f0ff" opacity=".85" stroke="#e6c800" stroke-width="1"/>
+    <circle cx="50" cy="38" r="5" fill="#00f0ff" opacity=".85" stroke="#e6c800" stroke-width="1"/>
+    <circle cx="66" cy="38" r="5" fill="#00f0ff" opacity=".85" stroke="#e6c800" stroke-width="1"/>
+    <circle cx="82" cy="38" r="5" fill="#00f0ff" opacity=".85" stroke="#e6c800" stroke-width="1"/>
+    <!-- Propeller -->
+    <ellipse cx="108" cy="34" rx="3" ry="8" fill="#e6c800" opacity=".7"/>
+    <ellipse cx="108" cy="42" rx="3" ry="8" fill="#e6c800" opacity=".7"/>
+    <circle cx="108" cy="38" r="2.5" fill="#ffd000"/>
+    <!-- Tower window -->
+    <circle cx="57" cy="22" r="4" fill="#00f0ff" opacity=".7" stroke="#e6c800" stroke-width="1"/>
+  </svg>
+
+  <!-- Timeline panel -->
+  <div id="timeline-panel">
+    <div id="timeline-header">
+      <div id="timeline-left">
+        <h2>Timeline</h2>
+        <span id="photo-count">Loading…</span>
+      </div>
+      <div id="timeline-controls">
+        <button id="btn-play" title="Play through trip">▶</button>
+        <button id="btn-show-all" title="Show all photos">Show All</button>
+      </div>
+      <div id="timeline-right">
+        <span id="date-range-label">Loading…</span>
+      </div>
+    </div>
+    <div id="histogram"></div>
+    <div id="slider-container">
+      <div id="timeline-slider"></div>
+    </div>
+    <div id="month-ticks"></div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Leaflet MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- noUiSlider JS -->
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
+
+  <!-- App script -->
+  <script src="script.js"></script>
+</body>
+</html>
