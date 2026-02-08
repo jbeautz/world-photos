@@ -22,6 +22,7 @@
   let panelIndex  = 0;      // current hero image index
   let panelOpen   = false;
   let panelManualClose = false; // user explicitly closed
+  let panelResizing = false;    // guard against invalidateSize re-triggering
   const PANEL_ZOOM_THRESHOLD = 10;  // show panel at this zoom+
 
   // Submarine state
@@ -564,15 +565,32 @@
 
     updatePanelContent();
     buildThumbnails();
-    // Leaflet needs to recalc its size when the panel opens
-    setTimeout(function () { map.invalidateSize(); }, 360);
+
+    // On desktop the panel pushes the map — need invalidateSize
+    // On mobile (overlay) the map size doesn't change
+    var isMobile = window.innerWidth <= 768;
+    if (!isMobile) {
+      panelResizing = true;
+      setTimeout(function () {
+        map.invalidateSize();
+        setTimeout(function () { panelResizing = false; }, 100);
+      }, 360);
+    }
   }
 
   function hidePanel() {
     panelOpen = false;
     var panel = document.getElementById('photo-panel');
     panel.classList.add('panel-hidden');
-    setTimeout(function () { map.invalidateSize(); }, 360);
+
+    var isMobile = window.innerWidth <= 768;
+    if (!isMobile) {
+      panelResizing = true;
+      setTimeout(function () {
+        map.invalidateSize();
+        setTimeout(function () { panelResizing = false; }, 100);
+      }, 360);
+    }
   }
 
   function updatePanelContent() {
@@ -662,12 +680,21 @@
   // ── Map move → auto show/hide panel ────────────
   function onMapMoveEnd() {
     if (panelManualClose) return; // user closed, don't reopen until zoom changes
+    if (panelResizing) return;   // ignore events from our own invalidateSize
 
     var zoom = map.getZoom();
     var visible = getVisiblePhotos();
 
     if (zoom >= PANEL_ZOOM_THRESHOLD && visible.length > 0) {
-      showPanel(visible);
+      // On mobile, only update content if panel is already open to avoid flashing
+      if (panelOpen) {
+        panelPhotos = visible;
+        panelIndex = Math.min(panelIndex, visible.length - 1);
+        updatePanelContent();
+        buildThumbnails();
+      } else {
+        showPanel(visible);
+      }
     } else if (panelOpen) {
       hidePanel();
     }

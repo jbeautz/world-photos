@@ -929,3 +929,127 @@ body::after {
 .leaflet-control-attribution a {
   color: var(--neon-cyan) !important;
 }
+
+/* ══════════════════════════════════════════════════
+   MOBILE RESPONSIVE
+   ══════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  /* Timeline is shorter on mobile */
+  #app-layout {
+    height: calc(100% - 120px);
+  }
+
+  #timeline-panel {
+    height: 120px;
+    padding: 6px 12px 8px;
+  }
+
+  #timeline-header h2 { font-size: 10px; }
+  #photo-count { font-size: 9px; }
+  #date-range-label { font-size: 10px; }
+  #btn-play { width: 30px; height: 30px; font-size: 12px; }
+  #btn-show-all { font-size: 9px; padding: 4px 10px; }
+  #histogram { height: 22px; }
+  #month-ticks { height: 14px; }
+  .tick::after { font-size: 7px; }
+
+  /* Photo panel: overlay on top of map instead of side-by-side */
+  #photo-panel {
+    position: fixed;
+    bottom: 120px;  /* sit above the timeline */
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    height: 45vh;
+    max-height: 320px;
+    border-right: none;
+    border-top: 1px solid var(--border-glow);
+    box-shadow: 0 -4px 24px rgba(0, 240, 255, .1);
+    z-index: 500;
+    transition: transform .3s ease, opacity .25s ease;
+    transform: translateY(0);
+    flex-direction: row; /* hero on left, thumbs on right */
+  }
+
+  #photo-panel.panel-hidden {
+    width: 100% !important;
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #panel-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px;
+    z-index: 10;
+    background: linear-gradient(to bottom, var(--bg-panel), transparent);
+  }
+
+  #panel-hero {
+    flex: 1;
+    min-height: 0;
+    max-height: none;
+  }
+
+  #hero-img {
+    max-height: 100%;
+  }
+
+  /* Always show nav on touch */
+  #panel-hero .hero-nav { opacity: .7; }
+  #hero-fullscreen { opacity: .7; }
+
+  #panel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background: linear-gradient(to top, var(--bg-panel), transparent);
+    font-size: 10px;
+    padding: 6px 8px;
+    border: none;
+    z-index: 5;
+  }
+
+  #panel-thumbs {
+    width: 80px;
+    flex: none;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 32px 4px 4px;
+    gap: 4px;
+    border-left: 1px solid var(--border-glow);
+  }
+
+  .thumb {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  /* Lightbox: touch-friendly nav */
+  .lightbox-nav {
+    width: 44px;
+    height: 60px;
+    font-size: 28px;
+  }
+  #lightbox-prev { left: 4px; }
+  #lightbox-next { right: 4px; }
+  #lightbox-close {
+    width: 36px; height: 36px;
+    top: 12px; right: 12px;
+    font-size: 18px;
+  }
+  #lightbox-caption { font-size: 11px; bottom: 32px; }
+  #lightbox-counter { font-size: 11px; top: 16px; left: 16px; }
+
+  /* Popups: smaller on mobile */
+  .photo-popup { max-width: 220px; }
+  .photo-popup img { max-height: 160px; }
+  .photo-popup .caption { font-size: 10px; padding: 6px 8px; }
+}
